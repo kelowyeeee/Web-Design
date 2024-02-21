@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/* Universal Selector Reset */
+* { margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* End Reset */
+
+:root {
+  --body-background-color: #313D5A;
+}
+
+body {
+  background-color: var(--body-background-color);
+  text-align: left;
+  font: 11px/1em "Lucida Grande", Lucida, Verdana, sans-serif;
+  /* Necessary for gradient to work properly */
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#wrapper {
+  margin: 0 auto;
+  max-width: ;
+  width: ;
+}
+
+h1 {
+  font-size:5.5em ;
+  line-height:1.75em ;
+  color:#9EADC8 ;
+  margin-bottom: 1.75em;
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+
+h2 {
+  font-size: ;
+  line-height: ;
+  color: ;
+  margin-bottom: ;
+}
+
+h3 {
+  font-size: ;
+  line-height: ;
+  color: ;
+  margin-bottom: ;
+}
+
+p {
+  font-size: ;
+  line-height: ;
+  color: ;
+  margin-bottom: ;
+}
+
+header {
+  width: 100%;
+  background-color: #345E9D;
+  padding-top: 50px;
+}
+
+nav {
+
+}
+
+nav li {
+  font-family: ;
+  font-size: ;
+  white-space: nowrap;
+  display: inline;
+  list-style-type: none;
+  padding-right: ;
+}
+
+nav li a {
+  font-family: 'Noto Serif', serif;
+  font-size: 1em;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px 5px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: ;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+nav li a:visited {
+  color: #fff;
+  text-decoration: underline;
+  transition: .5s;
+  font-weight: normal;
+}
+
+#banner {
+  width:1374;
+  height:142;
+  clear: both;
+  background-size: cover;
+  background-color: #99a4ee;
+}
+
+main {
+  width: ;
+  margin: ;
+}
+
+aside {
+  width: ;
+
+  margin: ;
+}
+
+footer {
+
+}
+
+/* Media Queries */
+
+@media screen and (max-width: ) {
+
+
+}
