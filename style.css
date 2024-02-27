@@ -10,13 +10,13 @@
 /* End Reset */
 
 :root {
-  --body-background-color: #313D5A;
+  --body-background-color: #37718E;
 }
 
 body {
   background-color: var(--body-background-color);
   text-align: left;
-  font: 11px/1em "Lucida Grande", Lucida, Verdana, sans-serif;
+  font: 11px/1em "Poppins", Lucida, Verdana, sans-serif;
   /* Necessary for gradient to work properly */
   height: 100%;
   margin: 0;
@@ -26,26 +26,22 @@ body {
 
 #wrapper {
   margin: 0 auto;
-  max-width: ;
-  width: ;
+  max-width: 2000px;
+  width: 1440px;
+  height: 1024px
 }
 
 h1 {
   font-size:5.5em ;
-  line-height:1.75em ;
-  color:#9EADC8 ;
+  line-height:20px ;
+  color:#37718E ;
   margin-bottom: 1.75em;
-  .poppins-bold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
 }
 
 h2 {
-  font-size: ;
-  line-height: ;
-  color: ;
+  font-size: 2.5em;
+  line-height: 1.75em;
+  color: #9EEBEB;
   margin-bottom: ;
 }
 
@@ -57,19 +53,22 @@ h3 {
 }
 
 p {
-  font-size: ;
-  line-height: ;
-  color: ;
-  margin-bottom: ;
+  font-size: 1em;
+  line-height: 1.3em;
+  color: #A8D0DB;
+  margin-bottom: 1.3em;
 }
 
 header {
-  width: 100%;
-  background-color: #345E9D;
-  padding-top: 50px;
+  width: 1440px;
+  background-color: #63AABF;
+  padding-top: 100px;
 }
 
 nav {
+  padding-top: 3px;
+  height: 40px;
+  float: right;
 
 }
 
@@ -83,7 +82,7 @@ nav li {
 }
 
 nav li a {
-  font-family: 'Noto Serif', serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1em;
   font-weight: 100;
   letter-spacing: 2px;
