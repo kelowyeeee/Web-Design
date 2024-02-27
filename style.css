@@ -26,8 +26,8 @@ body {
 
 #wrapper {
   margin: 0 auto;
-  max-width: 2000px;
-  width: 1440px;
+  max-width: 2273px;
+  width: 2273px;
   height: 1024px
 }
 
@@ -60,13 +60,13 @@ p {
 }
 
 header {
-  width: 1440px;
+  width: 2273px;
   background-color: #63AABF;
   padding-top: 100px;
 }
 
 nav {
-  padding-top: 3px;
+  padding-top: 10px;
   height: 40px;
   float: right;
 
