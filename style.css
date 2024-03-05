@@ -27,8 +27,7 @@ body {
 #wrapper {
   margin: 0 auto;
   max-width: 2273px;
-  width: 2273px;
-  height: 1024px
+  width: 2000px;
 }
 
 h1 {
@@ -39,10 +38,10 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 3.5em;
   line-height: 1.75em;
   color: #9EEBEB;
-  margin-bottom: ;
+  margin-bottom: 1.3em;
 }
 
 h3 {
@@ -53,16 +52,18 @@ h3 {
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 2em;
   line-height: 1.3em;
   color: #A8D0DB;
-  margin-bottom: 1.3em;
+  margin-bottom: 1.5em;
+  float: left;
 }
 
+
 header {
-  width: 2273px;
+  width: 100%;
   background-color: #63AABF;
-  padding-top: 100px;
+  padding-top: 70px;
 }
 
 nav {
@@ -73,17 +74,17 @@ nav {
 }
 
 nav li {
-  font-family: ;
-  font-size: ;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
   white-space: nowrap;
   display: inline;
   list-style-type: none;
-  padding-right: ;
+  padding-right: 1.5em;
 }
 
 nav li a {
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 10px;
   letter-spacing: 2px;
   padding: 20px 5px;
@@ -106,11 +107,11 @@ nav li a:visited {
 }
 
 #banner {
-  width:1374;
-  height:142;
+  width:;
+  height:;
   clear: both;
   background-size: cover;
-  background-color: #99a4ee;
+  background-color: #9EEBEB;
 }
 
 main {
