@@ -48,10 +48,11 @@ h2 {
 }
 
 h3 {
-  font-size: ;
-  line-height: ;
-  color: ;
-  margin-bottom: ;
+  font-size: 4em;
+  line-height: 1.75em;
+  color: #9EEBEB;
+  margin-left: 50px;
+  margin-bottom: 50px;
 }
 
 p {
@@ -122,14 +123,41 @@ nav li a:visited {
 }
 
 main {
-  width: ;
-  margin: ;
+  width: 60%;
+  margin-right: 5%;
+  float: left;
+  margin-top: 50px;
 }
 
-aside {
-  width: ;
+aside{
+  width: 35%;
+  float: right;
+  margin-top: 50px;
+}
 
-  margin: ;
+p{
+  font-size: 2.5em;
+  line-height: 1.3em;
+  color: #A8D0DB;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  margin-left: 50px;
+  float: right;
+}
+
+.gallerybutton{
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue; 
+}
+
+.contactbutton{
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 1px solid red;
 }
 
 footer {
