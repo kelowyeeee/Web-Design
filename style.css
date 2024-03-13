@@ -122,10 +122,14 @@ nav li a:visited {
   background-color: #9EEBEB;
 }
 
-.main {
+main {
   width: 60%;
   margin-right: 10%;
   margin-top: 3%;
+}
+
+.content {
+
 }
 
 aside{
@@ -136,15 +140,15 @@ aside{
 
 
 p{
-  font-size: 3em;
+  font-size: 4em;
   line-height: 1.3em;
   color: #A8D0DB;
   margin: 0 auto;
   margin-top: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   margin-right: 5%;
   margin-left: 5%;
-  float: left;
+  text-align: center;
 }
 
 .gallerybutton {
